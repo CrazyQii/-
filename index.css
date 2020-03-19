@@ -1,0 +1,25 @@
+body {
+	background-color: #E0E0E0FF;
+}
+h1 {
+	text-align: center;
+}
+ul {
+	/* 清除浮动 */
+	overflow: hidden; 
+	padding: 0;
+}
+li {
+	float: left;
+	padding-left: 4rem;
+	list-style: none;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+#description {
+	display: inline; 
+	margin-left: 50px;
+	font-size: 26px;
+}
