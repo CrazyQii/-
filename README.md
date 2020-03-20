@@ -6,6 +6,7 @@
 
 ## 优化
 1. 平稳退化--用户禁用 js，动态功能禁用，但依然能够正常浏览图片
+**当js被禁用时，以下链接都会失效**
 ```html
 <li>
     <a href="javascript:func(''); return false" title="image1">图片1</a>
@@ -14,7 +15,6 @@
     <a href="#" onclick="func(''); return false" title="image1">图片1</a>
 </li>
 ```
-**当js被禁用时，以上链接都会失效**
 
 2. 向后兼容--用户使用无法理解DOM的低版本的浏览器，依然能够正常浏览图片
 ```javascript
@@ -26,6 +26,7 @@ window.onload = function() {
 ```
 
 3. js和HTML分离--标记分离，js摆脱对元素的依赖
+**通过js操作获取节点**
 ```javascript
 var links = gallery.getElementsByTagName('a')
 for(var i = 0; i < links.length; i++) {
@@ -34,4 +35,3 @@ for(var i = 0; i < links.length; i++) {
     }
 }
 ```
-**通过js操作获取节点**
