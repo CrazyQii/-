@@ -5,7 +5,7 @@
 1. 用户点击图片，指定的图片在占位符展示，并在右侧伴有文字说明
 
 ## 优化
-1. 平稳退化--用户禁用 js，动态功能禁用，但依然能够正常浏览图片
+1. 平稳退化--用户禁用 js，动态功能禁用，但依然能够正常浏览图片<br>
 **当js被禁用时，以下链接都会失效**
 ```html
 <li>
@@ -25,7 +25,7 @@ window.onload = function() {
 }
 ```
 
-3. js和HTML分离--标记分离，js摆脱对元素的依赖
+3. js和HTML分离--标记分离，js摆脱对元素的依赖<br>
 **通过js操作获取节点**
 ```javascript
 var links = gallery.getElementsByTagName('a')
