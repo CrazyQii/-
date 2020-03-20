@@ -47,3 +47,4 @@ function showPic(whichPic) {
 	}
 	return true
 }
+
