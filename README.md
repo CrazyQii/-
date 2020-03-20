@@ -1,6 +1,8 @@
 # gallery
 动态展示图片基本js操作
 
+[demo-js图片库](http://www.crazyqiqi.top/project/)
+
 ## 实现功能
 1. 用户点击图片，指定的图片在占位符展示，并在右侧伴有文字说明
 
